@@ -1,0 +1,189 @@
+.nav {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 116px;
+}
+
+.nav-nordic {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list a {
+    margin-left: 35px;
+}
+
+.cart p {
+    display: none;
+}
+
+.cart:hover p {
+    display: block;
+}
+
+.get-in-touch {
+    margin-bottom: 116px;
+}
+
+.get-in-touch__title {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.get-in-touch__title h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.get-in-touch__title p {
+    line-height: 190%;
+    margin: 0;
+}
+
+.get-in-touch__contact {
+    display: flex;
+    justify-content: space-around;
+}
+
+.get-in-touch__contact-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-in-touch__contact-card img {
+    margin-bottom: 60px;
+}
+
+.get-in-touch__contact-card h2 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.get-in-touch__contact-card p {
+    color: #828282;
+    text-align: center;
+    line-height: 190%;
+}
+
+.get-in-touch__contact-card a {
+    text-decoration: underline;
+}
+
+.infor-contact {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.infor-contact h2 {
+    font-size: 2.25em;
+    flex: 1;
+    margin: 0;
+}
+
+.infor-contact form {
+    margin-left: 170px;
+}
+
+.name-email {
+    width: 470px;
+    border: none;
+    border-bottom: 1px solid #E0E0E0;
+    margin-bottom: 60px;
+    color: #BDBDBD;
+}
+
+.infor-contact textarea {
+    width: 470px;
+    height: 120px;
+    border: none;
+    border-bottom: 1px solid #E0E0E0;
+    margin-bottom: 60px;
+    color: #BDBDBD;
+}
+
+.send {
+    background: #000000;
+    border-radius: 30px;
+    color: white;
+    width: 160px;
+    height: 50px;
+    border: none;
+    font-size: 1em;
+}
+
+.help {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120PX;
+}
+
+.help h2 {
+    font-size: 2.25em;
+    margin: 0;
+}
+
+.help p {
+    font-size: 1.5em;
+}
+
+.help button {
+    border: none;
+    background-color: white;
+    border-bottom: 1px solid #E0E0E0;
+    width: 471px;
+    height: 70px;
+    text-align: start;
+    margin-left: 150PX;
+}
+
+.help button::before {
+    content: url(../img/plus.svg);
+    padding-right: 16px;
+}
+
+footer {
+    background: rgba(242, 242, 242, 1);
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.lists-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.lists-footer p {
+    color: rgba(130, 130, 130, 1);
+    padding-bottom: 10px;
+}
+.lists-footer ul {
+    padding-left: 0;
+}
+
+.lists-footer li {
+    line-height: 2;
+}
+
+.lists-footer a {
+    font-size: 14px;
+}
+
+.security-system li::before {
+    content: url(/img/green-tick.svg);
+    padding-right: 8px;
+    vertical-align: middle;
+}
+
+.copyright-footer {
+    color: rgba(130, 130, 130, 1);
+}

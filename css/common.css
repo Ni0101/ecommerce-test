@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    font-family: SVNGilroyMedium;
+    font-size: 1em;
+}
+
+html,body {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    margin: 0 220px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #FF00FF;
+}
+
+a:active {
+    color: #0000FF;
+}
+
+ul {
+    list-style-type: none;
+}
+
+@font-face {
+    font-family: SVNGilroyMedium;
+    src: url(../fonts/SVN-Gilroy-Medium.otf);
+}
+
+@font-face {
+    font-family: SVNGilroyMedium;
+    src: url(../fonts/SVN-Gilroy-Bold.otf);
+    font-weight: bold;
+}
+
+button {
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+input {
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+input:hover {
+    opacity: 0.8;
+}

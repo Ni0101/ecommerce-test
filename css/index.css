@@ -1,0 +1,303 @@
+.header {
+    width: 100%;
+    height: 780px;
+    background-image: url(/img/reven.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 120px;
+}
+
+.nav {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-nordic {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list a {
+    margin-left: 35px;
+}
+
+.cart p {
+    display: none;
+}
+
+.cart:hover p {
+    display: block;
+}
+
+h1 {
+    font-size: 4em;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    padding-left: 1003px;
+    padding-top: 270px;
+}
+
+.shop-now {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 290px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.left-arrow {
+    padding-right: 30px;
+}
+
+.shop-now__arrow::after {
+    content: url(/img/black-arrow.svg);
+    vertical-align: middle;
+    padding-left: 20px;
+}
+
+.shop-now__arrow a {
+    padding-right: 20px;
+}
+
+.find-yournewlook {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.find-yournewlook p {
+    font-size: 1.9375em;
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+.amazing-designs {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.amazing-designs p {
+    line-height: 2;
+    padding-right: 70px;
+}
+
+.title-collections {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.title-collections h2 {
+    font-size: 3em;
+    margin: 10px 0;
+}
+
+.picture-colections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.picture-colections div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mystery-picture {
+    position: relative;
+    display: flex;
+    color: white;
+}
+
+.darling-picture {
+    position: relative;
+    display: flex;
+    color: white;
+}
+
+.beyond-picture {
+    position: relative;
+    display: flex;
+}
+
+.reven-picture {
+    position: relative;
+    display: flex;
+    color: white;
+}
+
+.le-feminin-picture {
+    position: relative;
+    display: flex;
+}
+
+.naturalism-picture {
+    position: relative;
+    display: flex;
+    color: white;
+}
+
+.mystery-picture p {
+    position: absolute;
+}
+
+.darling-picture p {
+    position: absolute;
+}
+
+.beyond-picture p {
+    position: absolute;
+}
+
+.reven-picture p {
+    position: absolute;
+}
+
+.le-feminin-picture p {
+    position: absolute;
+}
+
+.naturalism-picture p {
+    position: absolute;
+}
+
+.content-collections {
+    display: flex;
+    justify-content: space-between;
+    line-height: 2;
+    margin: 0 -20px;
+    margin-bottom: 110px;
+}
+
+.content-collections div {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.new-customer {
+    background: #F2F2F2;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.new-customer-pic-1 {
+    padding-top: 57px;
+    padding-left: 180px;
+}
+
+.new-customer-content {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.8);
+    top: 14%;
+    left: 22%;
+    width: 800px;
+    height: 450px;
+    text-align: center;
+}
+
+.new-customer-content h2 {
+    font-size: 3em;
+    margin-top: 52px;
+    margin-bottom: 29px;
+}
+
+.new-customer-content h3 {
+    font-size: 2.25em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.new-customer-email {
+    color: #BDBDBD;
+    background: rgba(255, 255, 255, -.2);
+    border: none;
+    border-bottom: 1px solid #E0E0E0;
+    width: 320px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.new-customer-register {
+    background: black;
+    color: white;
+    width: 160px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+}
+
+.follow-instagram {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 130px;
+}
+
+.follow-instagram h2 {
+    font-size: 3em;
+    margin: 10px 0;
+}
+
+.follow-instagram a {
+    color: rgba(155, 81, 224, 1);
+    margin-bottom: 45px;
+}
+
+.follow-instagram a:hover {
+    color: #4e044e;
+}
+
+.follow-instagram div {
+    display: flex;
+}
+
+footer {
+    background: rgba(242, 242, 242, 1);
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.lists-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.lists-footer p {
+    color: rgba(130, 130, 130, 1);
+    padding-bottom: 10px;
+}
+.lists-footer ul {
+    padding-left: 0;
+}
+
+.lists-footer li {
+    line-height: 2;
+}
+
+.lists-footer a {
+    font-size: 14px;
+}
+
+.security-system li::before {
+    content: url(/img/green-tick.svg);
+    padding-right: 8px;
+    vertical-align: middle;
+}
+
+.copyright-footer {
+    color: rgba(130, 130, 130, 1);
+}

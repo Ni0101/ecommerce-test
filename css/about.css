@@ -1,0 +1,209 @@
+header {
+    background-image: url(../img/header-about.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 780px;
+    margin-bottom: 90px;
+}
+
+.nav {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-nordic {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list a {
+    margin-left: 35px;
+}
+
+.cart p {
+    display: none;
+}
+
+.cart:hover p {
+    display: block;
+}
+
+header h1 {
+    font-size: 3em;
+    line-height: 50px;
+    letter-spacing: 0.2em;
+    margin-top: 300px;
+    margin-left: 280px;
+}
+
+.content > p {
+    font-size: 1.5em;
+    line-height: 190%;
+    width: 921px;
+    text-align: center;
+    margin: 0;
+    padding-left: 155px;
+    margin-bottom: 87px;
+}
+
+.vision-mission {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.vision-mission > div {
+    flex: 1;
+}
+
+.vision-mission h3 {
+    font-size: 1.125em;
+}
+
+.vision-mission p {
+    line-height: 190%;
+}
+
+.vision-mission span {
+    font-style: italic;
+    color: rgba(130, 130, 130, 1);
+}
+
+.numbers-about-us {
+    background-color: rgba(242, 242, 242, 1);
+    margin-bottom: 128px;
+}
+
+.numbers-about-us h2 {
+    font-size: 3em;
+    text-align: center;
+    padding-top: 112px;
+    margin-bottom: 104px;
+}
+
+.numbers-about-us--inner {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-bottom: 120px;
+}
+
+.numbers-about-us--inner p {
+    font-size: .875em;
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+
+.numbers-about-us--inner span {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.since-2018 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 132px;
+}
+
+.since-2018__content {
+    width: 380px;
+    margin-top: 72px;
+    margin-left: 147px;
+}
+
+.since-2018__content h2 {
+    font-size: 2.25em;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+
+.since-2018__content p {
+    line-height: 190%;
+    margin-bottom: 39px;
+}
+
+.since-2018__content a img {
+    vertical-align: middle;
+    padding-left: 20px;
+}
+
+.nordic {
+    margin-bottom: 129px;
+}
+
+.nordic h1 {
+    font-size: 3em;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.nordic__inner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nordic__inner div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nordic__inner img {
+    margin-bottom: 46px;
+}
+
+.nordic__inner p {
+    font-size: 1.125em;
+    color: rgba(39, 174, 96, 1);
+    margin: 0;
+}
+
+.nordic__inner span {
+    color: #828282;
+    line-height: 190%;
+}
+
+footer {
+    background: rgba(242, 242, 242, 1);
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.lists-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.lists-footer p {
+    color: rgba(130, 130, 130, 1);
+    padding-bottom: 10px;
+}
+.lists-footer ul {
+    padding-left: 0;
+}
+
+.lists-footer li {
+    line-height: 2;
+}
+
+.lists-footer a {
+    font-size: 14px;
+}
+
+.security-system li::before {
+    content: url(/img/green-tick.svg);
+    padding-right: 8px;
+    vertical-align: middle;
+}
+
+.copyright-footer {
+    color: rgba(130, 130, 130, 1);
+}

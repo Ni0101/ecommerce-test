@@ -1,0 +1,282 @@
+.nav {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.nav-nordic {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list a {
+    margin-left: 35px;
+}
+
+.cart p {
+    display: none;
+}
+
+.cart:hover p {
+    display: block;
+}
+
+.main {
+    display: flex;
+}
+
+.main-bar {
+    flex: 1;
+    margin-right: 66px;
+}
+
+.main-bar p {
+    color: #828282;
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+
+.main-bar__category {
+    margin-bottom: 32px;
+}
+
+.main-bar__category ul {
+    padding: 0;
+}
+
+.main-bar__category li {
+    line-height: 35px;
+}
+
+.main-bar__category a {
+    font-size: 0.875em;
+}
+
+.main-bar__button-color {
+    margin-bottom: 42px;
+}
+
+.main-bar__button-color button {
+    width: 0.75em;
+    height: 0.75em;
+    border-radius: 50%;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    padding: 0;
+    border: none;
+}
+
+.main-bar__button-color button:hover {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+}
+
+.color-button--black {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.color-button--gray {
+    background-color: rgba(224, 224, 224, 1);
+}
+
+.color-button--red {
+    background-color: rgba(235, 87, 87, 1);
+}
+
+.color-button--orange {
+    background-color: rgba(242, 153, 74, 1);
+}
+
+.color-button--yellow {
+    background-color: rgba(242, 201, 76, 1);
+}
+
+.color-button--green {
+    background-color: rgba(33, 150, 83, 1);
+}
+
+.color-button--blue {
+    background-color: rgba(47, 128, 237, 1);
+}
+
+.color-button--purple {
+    background-color: rgba(155, 81, 224, 1);
+}
+
+.main-bar__button-size button {
+    border: none;
+    background: none;
+    padding: 0;
+    margin-right: 17px;
+}
+
+.main-bar__button-size button:hover {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+.shop {
+    flex: 3;
+}
+
+.shop h1 {
+    font-size: 3em;
+}
+
+.shop__showing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 36px;
+}
+
+.shop__showing p {
+    color: rgba(130, 130, 130, 1);
+    font-size: .875em;
+}
+
+.shop__showing button {
+    border: 1px solid #E0E0E0;
+    border-radius: 30px;
+    background: white;
+    width: 210px;
+    height: 40px;
+}
+
+.shop__showing img {
+    padding-left: 36px;
+    margin: 0;
+}
+
+.shop__products {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+    margin-bottom: 50px;
+}
+
+.shop__products div {
+    padding: 10px;
+}
+
+.shop__products span {
+    color: rgba(130, 130, 130, 1);
+    text-decoration: line-through;
+
+}
+
+.shop__add-to-cart {
+    position: relative;
+}
+
+.shop__add-to-cart button {
+    border: none;
+    background: white;
+    width: 140px;
+    height: 40px;
+    border-radius: 30px;
+    position: absolute;
+    top: 220px;
+    left: 50px;
+    font-size: .875em;
+    padding-top: 4px;
+}
+
+.shop__add-to-cart button img {
+    padding-left: 15px;
+}
+
+.shop__add-to-cart button img {
+    padding-left: 16px;
+}
+
+.shop__sale {
+    position: relative;
+}
+
+.shop__sale div {
+    background: rgba(212, 0, 0, 1);
+    color: #FFFFFF;
+    font-size: .875em;
+    opacity: 0.6;
+    border-radius: 15px;
+    width: 50px;
+    height: 25px;
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    padding: 6px;
+    padding-left: 12px;
+}
+
+.page {
+    margin-bottom: 120px;
+}
+
+.active-btn {
+    width: 40px;
+    height: 40px;
+    background: rgba(242, 242, 242, 1);
+    border: none;
+    border-radius: 50%;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.inactive-btn {
+    border: none;
+    background: #FFFFFF;
+}
+
+.inactive-btn img {
+    vertical-align: middle;
+    margin-left: 30px;
+}
+
+footer {
+    background: rgba(242, 242, 242, 1);
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.lists-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.lists-footer p {
+    color: rgba(130, 130, 130, 1);
+    padding-bottom: 10px;
+}
+.lists-footer ul {
+    padding-left: 0;
+}
+
+.lists-footer li {
+    line-height: 2;
+}
+
+.lists-footer a {
+    font-size: 14px;
+}
+
+.security-system li::before {
+    content: url(/img/green-tick.svg);
+    padding-right: 8px;
+    vertical-align: middle;
+}
+
+.copyright-footer {
+    color: rgba(130, 130, 130, 1);
+}
