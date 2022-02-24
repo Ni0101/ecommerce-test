@@ -300,6 +300,31 @@ header {
 .related-product > div {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+/* mobile */
+
+.related-product > div > div {
+    width: 100%;
+    padding: 10px;
+}
+
+/* tablet */
+
+@media screen and (min-width: 600px){
+    .related-product > div > div{
+        width: 50%;
+    }
+}
+
+/* desktop */
+
+@media screen and (min-width: 992px){
+    .related-product > div > div {
+        width: 25%;
+    }
 }
 
 .related-product h3 {

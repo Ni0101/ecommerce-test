@@ -6,52 +6,138 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/index.css">
+    <script src="https://kit.fontawesome.com/c065f3fc92.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/common.css">
 </head>
 
 <body>
     <header class="header">
-        <nav class="container">
-            <div class="nav">
-                <a style="text-transform: uppercase;" class="nav-nordic" href="index.html">Nordic Coder</a>
-                <div class="nav-list">
-                    <a>New</a>
-                    <a href="listing.html">Shop</a>
-                    <a href="detail.html">Sale</a>
-                    <a href="login.html">Login</a>
-                    <a class="cart">
-                        <img class="cart" src="img/cart.svg" alt="cart">
-                        <p>No items yet</p>
-                    </a>
+        <!-- Carousel -->
+        <div id="demo" class="carousel height-780" data-bs-ride="carousel">
+            <nav class="container">
+                <nav class="nav navbar-expand-sm navbar-dark">
+                    <div class="container-fluid">
+                        <a class="nav-nordic" style="text-transform: uppercase;" href="index.html">Nordic Coder</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsibleNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="nav-lists collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="nav-list navbar-nav">
+                            <li class="nav-item"><a href="#">New</a></li>
+                            <li class="shop nav-item">
+                                <a href="listing.html">Shop</a>
+                                <ul class="shop-lists">
+                                    <li><a href="#">Top</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                    <li><a href="#">Jeans</a></li>
+                                    <li class="jackets">
+                                        <a href="#">Jackets</a>
+                                        <ul class="jacket-lists">
+                                            <li><a href="#">Blazers</a></li>
+                                            <li><a href="#">Coats</a></li>
+                                            <li><a href="#">Denim Jackets</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Shoes</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a href="detail.html">Sale</a></li>
+                            <li class="nav-item"><a href="login.html">Login</a></li>
+                            <li class="nav-item">
+                                <a class="nav-link cart" href="#">
+                                    <img src="img/cart.svg" alt="cart">
+                                    <p>No items yet</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </nav>
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h1>Reven</h1>
+                    <div class="shop-now">
+                        <div>
+                            <img class="left-arrow" src="img/left-arrow.svg" alt="left-arrow">
+                            <img src="img/right-arrow.svg" alt="right-arrow">
+                        </div>
+                        <div>
+                            <a class="shop-now__arrow" href="listing.html">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <h1>Reven</h1>
+                    <section>
+                        <div class="shop-now">
+                            <div>
+                                <img class="left-arrow" src="img/left-arrow.svg" alt="left-arrow">
+                                <img src="img/right-arrow.svg" alt="right-arrow">
+                            </div>
+                            <div>
+                                <a class="shop-now__arrow" href="listing.html">Shop Now</a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="carousel-item">
+                    <h1>Reven</h1>
+                    <section>
+                        <div class="shop-now">
+                            <div>
+                                <img class="left-arrow" src="img/left-arrow.svg" alt="left-arrow">
+                                <img src="img/right-arrow.svg" alt="right-arrow">
+                            </div>
+                            <div>
+                                <a class="shop-now__arrow" href="listing.html">Shop Now</a>
+                            </div>
+                        </div>
+                    </section>
                 </div>
             </div>
-        </nav>
-        <h1>Reven</h1>
-        <section>
-            <div class="shop-now">
-                <div>
-                    <img class="left-arrow" src="img/left-arrow.svg" alt="left-arrow">
-                    <img src="img/right-arrow.svg" alt="right-arrow">
-                </div>
-                <div>
-                    <a class="shop-now__arrow" href="listing.html">Shop Now</a>                
-                </div>
-            </div>
-        </section>
+        </div>
     </header>
     <main>
         <section class="container">
             <div class="find-yournewlook">
-                <img src="img/find-yournewlook.png" alt="your new look">
-                <p>Find your new look with the fresh fall fashion ideas.</p>
+                <p class="clearfix"><img src="img/find-yournewlook.png" alt="your new look">
+                    Find your new look with the fresh fall fashion ideas.
+                </p>
             </div>
             <div class="amazing-designs">
-                <p>Amazing designs & collaborations, and as always 100% Organic & Fairtrade certified cotton. Inspired
+                <p class="clearfix"><img src="img/amazing-designs.png" alt="amazing designs"> 
+                    Amazing designs & collaborations, and as always 100% Organic & Fairtrade certified cotton. Inspired
                     by the georgious Brasilian bucket, a wonderful serenity has taken possession of my entire soul, like
-                    these sweet mornings of spring which.</p>
-                <img src="img/amazing-designs.png" alt="amazing designs">
+                    these sweet mornings of spring which.
+                </p>
             </div>
+        </section>
+        <section>
+            <div class="poppup-cookie">
+                <p>This is a standard cookie notice which you can easily adapt or disable as you like in the admin. We
+                    use cookies to ensure that we give you the best experience on our website.</p>
+                <div class="poppup-cookie__accept">
+                    <p>Privacy policy</p>
+                    <button>Accept
+                        <i style="padding-left: 5px;" class="fa-solid fa-check"></i>
+                    </button>
+                </div>
+            </div>
+            <button class="btn-messenger">
+                <img src="/img/messenger.svg" alt="messenger">
+            </button>
         </section>
         <section class="container">
             <div class="title-collections">
@@ -100,12 +186,6 @@
             </div>
         </section>
         <section class="new-customer">
-            <div class="new-customer-pic-1">
-                <img src="img/new-customer-1.png" alt="new-customer-1">
-            </div>
-            <div>
-                <img src="img/new-customer-2.png" alt="new-customer-2">
-            </div>
             <div class="new-customer-content">
                 <h2>New customer?</h2>
                 <p>Receive instantly voucher valued at</p>

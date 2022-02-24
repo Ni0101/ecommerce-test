@@ -6,6 +6,9 @@
 
 html,body {
     margin: 0;
+    width: 1440px;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 h1 {
@@ -14,6 +17,7 @@ h1 {
 
 .container {
     margin: 0 220px;
+    padding: 0;
 }
 
 a {
@@ -27,6 +31,11 @@ a:hover {
 
 a:active {
     color: #0000FF;
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: ease .5s;
 }
 
 ul {
@@ -65,4 +74,37 @@ input:hover {
 ::selection {
     color: white;
     background-color: black;
+}
+
+@media (min-width: 576px) {
+    .container, .container-sm {
+    max-width: 540px;
+}
+}
+
+@media (min-width: 768px) {
+    .container, .container-md, .container-sm {
+    max-width: 700px;
+}
+}
+
+
+@media (min-width: 992px) {
+    .container, .container-lg, .container-md, .container-sm {
+    max-width: 800px;
+}
+}
+
+
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 900px;
+}
+}
+
+
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1000px;
+}
 }
