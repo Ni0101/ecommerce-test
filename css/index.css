@@ -1,11 +1,5 @@
 .header {
-    max-width: 100%;
-    height: 780px;
-    background-image: url(/img/reven.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
     margin-bottom: 120px;
-    position: relative;
 }
 
 .height-780 {
@@ -117,30 +111,32 @@ nav a {
     display: block;
 }
 
-h1 {
+.reven {
+    color: black;
+    font-weight: 700;
     font-size: 4em;
     letter-spacing: 0.5em;
     text-transform: uppercase;
-    position: absolute;
-    top: 350px;
-    right: 80px;
-    display: none;
-    z-index: 2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: -130px;
+    position: relative;
+    transform: translateY(-370%);
 }
 
 .header:hover h1 {
     animation-name: reven;
-    animation-duration: .5s;
-    display: block;
+    animation-duration: .7s;
 }
 
 @keyframes reven {
     from {
-        right: 0;
+        right: 0px;
     }
 
     to {
-        right: 80px;
+        right: 100px;
     }
 }
 
@@ -148,11 +144,10 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: absolute;
-    top: 725px;
-    left: 30px;
-    right: 30px;
-    z-index: 2;
+    position: relative;
+    width: 138%;
+    margin-left: -190px;
+    margin-bottom: -30px;
 }
 
 .left-arrow {
@@ -170,18 +165,13 @@ h1 {
 }
 
 .find-yournewlook {
+    display: flex;
+    align-items: center;
     margin-bottom: 50px;
 }
 
 .find-yournewlook img{
-    float: left; 
     margin-right: 40px; 
-}
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
 }
 
 .find-yournewlook p {
@@ -190,8 +180,10 @@ h1 {
     font-weight: bold;
 }
 
-.amazing-designs img {
-    float: right;
+.amazing-designs{
+    display: flex;
+    align-items: center;
+    margin-bottom: 112px;
 }
 
 .amazing-designs p {

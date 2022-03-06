@@ -238,6 +238,10 @@ header {
     color: rgba(189, 189, 189, 1);
 }
 
+/* .nav-link__change {
+    color: black;
+} */
+
 .description__content-care {
     margin-bottom: 12px;
 }

@@ -15,8 +15,7 @@
 
 <body>
     <header class="header">
-        <!-- Carousel -->
-        <div id="demo" class="carousel height-780" data-bs-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <nav class="container">
                 <nav class="nav navbar-expand-sm navbar-dark">
                     <div class="container-fluid">
@@ -58,76 +57,90 @@
                     </div>
                 </nav>
             </nav>
-            <!-- Indicators/dots -->
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-            </div>
-            <!-- The slideshow/carousel -->
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <h1>Reven</h1>
-                    <div class="shop-now">
-                        <div>
-                            <img class="left-arrow" src="img/left-arrow.svg" alt="left-arrow">
-                            <img src="img/right-arrow.svg" alt="right-arrow">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/img/reven.jpg" class="d-block w-100" alt="Reven">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="reven">Reven</h1>
+                            <div class="shop-now">
+                                <div>
+                                    <img class="left-arrow" src="img/left-arrow.svg" alt="left-arrow">
+                                    <img src="img/right-arrow.svg" alt="right-arrow">
+                                </div>
+                                <div>
+                                    <a class="shop-now__arrow" href="listing.html">Shop Now</a>
+                                </div>
+                            </div>
                         </div>
-                        <div>
-                            <a class="shop-now__arrow" href="listing.html">Shop Now</a>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/header-about.jpg" class="d-block w-100" alt="Reven">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="reven">Reven</h1>
+                            <div class="shop-now">
+                                <div>
+                                    <img class="left-arrow" src="img/left-arrow.svg" alt="left-arrow">
+                                    <img src="img/right-arrow.svg" alt="right-arrow">
+                                </div>
+                                <div>
+                                    <a class="shop-now__arrow" href="listing.html">Shop Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/reven.jpg" class="d-block w-100" alt="Reven">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="reven">Reven</h1>
+                            <div class="shop-now">
+                                <div>
+                                    <img class="left-arrow" src="img/left-arrow.svg" alt="left-arrow">
+                                    <img src="img/right-arrow.svg" alt="right-arrow">
+                                </div>
+                                <div>
+                                    <a class="shop-now__arrow" href="listing.html">Shop Now</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <h1>Reven</h1>
-                    <section>
-                        <div class="shop-now">
-                            <div>
-                                <img class="left-arrow" src="img/left-arrow.svg" alt="left-arrow">
-                                <img src="img/right-arrow.svg" alt="right-arrow">
-                            </div>
-                            <div>
-                                <a class="shop-now__arrow" href="listing.html">Shop Now</a>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="carousel-item">
-                    <h1>Reven</h1>
-                    <section>
-                        <div class="shop-now">
-                            <div>
-                                <img class="left-arrow" src="img/left-arrow.svg" alt="left-arrow">
-                                <img src="img/right-arrow.svg" alt="right-arrow">
-                            </div>
-                            <div>
-                                <a class="shop-now__arrow" href="listing.html">Shop Now</a>
-                            </div>
-                        </div>
-                    </section>
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </button>
         </div>
     </header>
     <main>
         <section class="container">
             <div class="find-yournewlook">
-                <p class="clearfix"><img src="img/find-yournewlook.png" alt="your new look">
+                <img src="img/find-yournewlook.png" alt="your new look">
+                <p>
                     Find your new look with the fresh fall fashion ideas.
                 </p>
             </div>
             <div class="amazing-designs">
-                <p class="clearfix"><img src="img/amazing-designs.png" alt="amazing designs">
+                <p>
                     Amazing designs & collaborations, and as always 100% Organic & Fairtrade certified cotton. Inspired
                     by the georgious Brasilian bucket, a wonderful serenity has taken possession of my entire soul, like
                     these sweet mornings of spring which.
                 </p>
+                <img src="img/amazing-designs.png" alt="amazing designs">
             </div>
         </section>
         <section>
